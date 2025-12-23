@@ -1,0 +1,277 @@
+{
+  "campaign": {
+    "name": "Black November",
+    "type": "Oferta Relâmpago",
+    "coupon_code": "BLACK15",
+    "discount_percentage": 15,
+    "marquee_text": "⚡ BLACK NOVEMBER 🔥 ÚLTIMAS UNIDADES 🔥 APROVEITE AGORA ⚡"
+  },
+  "branding": {
+    "company_name": "Welong Hair",
+    "logo_image": "src/assets/welong-logo-circular.png",
+    "copyright": "© 2025 Welong Hair. Todos os direitos reservados."
+  },
+  "product_lines": [
+    {
+      "line_id": "crescimento_antiqueda",
+      "line_name": "LINHA CRESCIMENTO E ANTIQUEDA",
+      "products": [
+        {
+          "product_id": "kit_8_unidades",
+          "image": "src/assets/kit-crescimento-8-updated.png",
+          "title": "8 TÔNICOS + 2 SHAMPOOS + 2 CONDICIONADORES",
+          "subtitle": "Welong 300 dias",
+          "days_of_use": "300 dias de uso",
+          "unit_price": "Cada unidade por R$ 42",
+          "original_price": "de R$ 597 por",
+          "current_price": "R$ 507",
+          "installments": "",
+          "badge": "MAIS COMPLETO",
+          "badge_color": "blue",
+          "is_highlighted": true,
+          "shipping_text": "Frete Grátis + Brindes",
+          "discount_percentage": 15,
+          "show_discount_badge": true,
+          "discount_amount": "R$ 90",
+          "purchase_url": "https://seguro.welong.com.br/r/8O1XB34GUA?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+        },
+        {
+          "product_id": "kit_5_unidades",
+          "image": "src/assets/kit-crescimento-5.png",
+          "title": "5 TÔNICOS + 1 SHAMPOO + 1 CONDICIONADOR",
+          "subtitle": "Welong 180 dias",
+          "days_of_use": "180 dias de uso",
+          "unit_price": "Cada unidade por R$ 48",
+          "original_price": "de R$ 397 por",
+          "current_price": "R$ 337",
+          "installments": "",
+          "badge": "MAIS VENDIDO",
+          "badge_color": "green",
+          "is_highlighted": true,
+          "shipping_text": "Frete Grátis + Brindes",
+          "discount_percentage": 15,
+          "show_discount_badge": true,
+          "discount_amount": "R$ 60",
+          "purchase_url": "https://seguro.welong.com.br/r/MBKLHMA2IV?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+        },
+        {
+          "product_id": "kit_3_completo",
+          "image": "src/assets/kit-crescimento-3-completo.png",
+          "title": "3 TÔNICOS + 1 SHAMPOO + 1 CONDICIONADOR",
+          "subtitle": "Welong 90 dias",
+          "days_of_use": "90 dias de uso",
+          "unit_price": "Cada unidade por R$ 50",
+          "original_price": "de R$ 297 por",
+          "current_price": "R$ 252",
+          "installments": "",
+          "badge_color": "purple",
+          "shipping_text": "Frete Grátis + Brindes",
+          "discount_percentage": 15,
+          "show_discount_badge": true,
+          "discount_amount": "R$ 45",
+          "purchase_url": "https://seguro.welong.com.br/r/HT1OQPX12V?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+        },
+        {
+          "product_id": "kit_3_tonicos",
+          "image": "src/assets/kit-crescimento-3.png",
+          "title": "3 UNIDADES TÔNICO WELONG HAIR",
+          "subtitle": "Welong 90 dias",
+          "days_of_use": "90 dias de uso",
+          "unit_price": "Cada unidade por R$ 56",
+          "original_price": "de R$ 197 por",
+          "current_price": "R$ 167",
+          "installments": "",
+          "badge_color": "orange",
+          "discount_percentage": 15,
+          "show_discount_badge": true,
+          "discount_amount": "R$ 30",
+          "purchase_url": "https://seguro.welong.com.br/r/KG5LJLOTT3?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+        },
+        {
+          "product_id": "kit_1_tonico",
+          "image": "src/assets/kit-crescimento-1.png",
+          "title": "1 UNIDADE TÔNICO WELONG HAIR",
+          "subtitle": "Welong 30 dias",
+          "days_of_use": "30 dias de uso",
+          "unit_price": "Cada unidade por R$ 133",
+          "original_price": "de R$ 157 por",
+          "current_price": "R$ 133",
+          "installments": "",
+          "badge_color": "teal",
+          "discount_percentage": 15,
+          "show_discount_badge": true,
+          "discount_amount": "R$ 24",
+          "purchase_url": "https://seguro.welong.com.br/r/C1R8W78CN3?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+        }
+      ]
+    },
+    {
+      "line_id": "antifrizz",
+      "line_name": "LINHA ANTIFRIZZ",
+      "products": [
+        {
+          "product_id": "antifrizz_12_unidades",
+          "image": "src/assets/kit-antifrizz-12.png",
+          "title": "12 UNIDADES ANTIFRIZZ WELONG HAIR",
+          "subtitle": "365 Dias de Uso",
+          "days_of_use": "365 Dias de Uso",
+          "unit_price": "Cada unidade por R$ 42",
+          "original_price": "de R$ 597 por",
+          "current_price": "R$ 507",
+          "installments": "",
+          "badge": "MAIS COMPLETO",
+          "badge_color": "blue",
+          "shipping_text": "Frete Grátis + Brindes",
+          "discount_percentage": 15,
+          "show_discount_badge": true,
+          "discount_amount": "R$ 90",
+          "purchase_url": "https://seguro.welong.com.br/r/RJBYR6ESKM?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+        },
+        {
+          "product_id": "antifrizz_6_unidades",
+          "image": "src/assets/kit-antifrizz-6.png",
+          "title": "6 UNIDADES ANTIFRIZZ WELONG HAIR",
+          "subtitle": "180 Dias de Uso",
+          "days_of_use": "180 Dias de Uso",
+          "unit_price": "Cada unidade por R$ 56",
+          "original_price": "de R$ 397 por",
+          "current_price": "R$ 337",
+          "installments": "",
+          "badge": "MAIS VENDIDO",
+          "badge_color": "green",
+          "shipping_text": "Frete Grátis + Brindes",
+          "discount_percentage": 15,
+          "show_discount_badge": true,
+          "discount_amount": "R$ 60",
+          "purchase_url": "https://seguro.welong.com.br/r/AIOHS0CVPE?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+        },
+        {
+          "product_id": "antifrizz_3_brindes",
+          "image": "src/assets/kit-antifrizz-3-brindes.png",
+          "title": "3 UNIDADES ANTIFRIZZ + SHAMPOO E CONDICIONADOR",
+          "subtitle": "150 Dias de Uso",
+          "days_of_use": "150 Dias de Uso",
+          "unit_price": "Cada unidade por R$ 50",
+          "original_price": "de R$ 297 por",
+          "current_price": "R$ 252",
+          "installments": "",
+          "badge_color": "purple",
+          "shipping_text": "Frete Grátis + Brindes",
+          "discount_percentage": 15,
+          "show_discount_badge": true,
+          "discount_amount": "R$ 45",
+          "purchase_url": "https://seguro.welong.com.br/r/IDX2GCER77?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+        },
+        {
+          "product_id": "antifrizz_3_unidades",
+          "image": "src/assets/kit-antifrizz-3.png",
+          "title": "3 UNIDADES ANTIFRIZZ WELONG HAIR",
+          "subtitle": "90 dias de Uso",
+          "days_of_use": "90 dias de Uso",
+          "unit_price": "Cada unidade por R$ 56",
+          "original_price": "de R$ 197 por",
+          "current_price": "R$ 167",
+          "installments": "",
+          "badge_color": "orange",
+          "discount_percentage": 15,
+          "show_discount_badge": true,
+          "discount_amount": "R$ 30",
+          "purchase_url": "https://seguro.welong.com.br/r/TJPR97DVO5?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+        },
+        {
+          "product_id": "antifrizz_1_unidade",
+          "image": "src/assets/kit-antifrizz-1.png",
+          "title": "1 UNIDADE ANTIFRIZZ WELONG HAIR",
+          "subtitle": "30 dias de Uso",
+          "days_of_use": "30 dias de Uso",
+          "unit_price": "Cada unidade por R$ 133",
+          "original_price": "de R$ 157 por",
+          "current_price": "R$ 133",
+          "installments": "",
+          "badge_color": "green",
+          "discount_percentage": 15,
+          "show_discount_badge": true,
+          "discount_amount": "R$ 24",
+          "purchase_url": "https://seguro.welong.com.br/r/8DIH2UP9J1?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+        }
+      ]
+    }
+  ],
+  "whatsapp": {
+    "message": "Dúvidas? Fale conosco no WhatsApp!",
+    "button_text": "FALAR NO WHATSAPP",
+    "float_button": true
+  },
+  "visual_elements": {
+    "background": "gradient-dark",
+    "coupon_banner": {
+      "background_color": "#FF0000",
+      "text_color": "white",
+      "coupon_highlight_color": "yellow-300",
+      "position": "fixed-top"
+    },
+    "icons": {
+      "lightning": "Zap",
+      "flame": "Flame"
+    },
+    "decorations": {
+      "black_november_badges": [
+        {
+          "position": "top-left",
+          "size": "lg",
+          "opacity": 0.3
+        },
+        {
+          "position": "top-right",
+          "size": "md",
+          "opacity": 0.2
+        },
+        {
+          "position": "bottom-left",
+          "size": "sm",
+          "opacity": 0.25
+        },
+        {
+          "position": "bottom-right",
+          "size": "lg",
+          "opacity": 0.3
+        }
+      ]
+    },
+    "colors": {
+      "gold": "black-november-gold",
+      "orange": "black-november-orange"
+    }
+  },
+  "page_sections": [
+    {
+      "section": "header",
+      "elements": ["logo", "black_november_decoration"]
+    },
+    {
+      "section": "hero",
+      "elements": ["title", "subtitle", "countdown", "marquee"]
+    },
+    {
+      "section": "products_antiqueda",
+      "elements": ["section_title", "product_cards"]
+    },
+    {
+      "section": "products_antifrizz",
+      "elements": ["section_title", "product_cards"]
+    },
+    {
+      "section": "whatsapp_cta",
+      "elements": ["whatsapp_button"]
+    },
+    {
+      "section": "footer",
+      "elements": ["copyright", "promo_message", "icons"]
+    }
+  ],
+  "responsive_breakpoints": {
+    "mobile": "< 640px",
+    "tablet": "640px - 1024px",
+    "desktop": ">= 1024px"
+  }
+}

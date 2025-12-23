@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welong Hair - Black November 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Fixed Red Banner */
+        .fixed-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #FF0000;
+            padding: 0.5rem 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            z-index: 1000;
+            text-align: center;
+        }
+
+        .fixed-banner p {
+            color: white;
+            font-weight: bold;
+            font-size: 0.875rem;
+        }
+
+        .fixed-banner .coupon {
+            color: #fef08a;
+        }
+
+        .spacer {
+            height: 2.5rem;
+        }
+
+        /* Header */
+        header {
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+
+        .logo {
+            width: 6rem;
+            height: 6rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .hero-title {
+            font-size: 2rem;
+            font-weight: bold;
+            background: linear-gradient(to right, #fbbf24, #f97316, #fbbf24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        .hero-subtitle {
+            font-size: 2rem;
+            font-weight: bold;
+            background: linear-gradient(to right, #f97316, #fbbf24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 2rem;
+        }
+
+        /* Countdown */
+        .countdown-container {
+            background: #2a2a2a;
+            border-radius: 1rem;
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 600px;
+            border: 1px solid #3a3a3a;
+        }
+
+        .countdown-title {
+            color: #ef4444;
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+
+        .countdown-timer {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .countdown-item {
+            text-align: center;
+        }
+
+        .countdown-number {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .countdown-label {
+            font-size: 0.875rem;
+            color: #9ca3af;
+            text-transform: uppercase;
+        }
+
+        .countdown-separator {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        /* Marquee */
+        .marquee {
+            background: linear-gradient(to right, #f97316, #fbbf24, #f97316);
+            padding: 1rem 0;
+            overflow: hidden;
+            white-space: nowrap;
+            margin-top: 2rem;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            animation: marquee 30s linear infinite;
+            color: #000000;
+            font-weight: bold;
+            font-size: 1.125rem;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        /* Product Section */
+        .product-section {
+            padding: 3rem 1rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.875rem;
+            font-weight: bold;
+            background: linear-gradient(to right, #fbbf24, #f97316);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 2rem;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Product Card */
+        .product-card {
+            background: white;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-badge {
+            position: absolute;
+            top: -0.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            font-weight: bold;
+            font-size: 0.875rem;
+            z-index: 10;
+            white-space: nowrap;
+        }
+
+        .badge-blue { background: #334155; color: white; }
+        .badge-green { background: #047857; color: white; }
+        .badge-purple { background: #6d28d9; color: white; }
+        .badge-orange { background: #b45309; color: white; }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            background: #f9fafb;
+        }
+
+        .discount-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: #e11d48;
+            color: white;
+            padding: 0.5rem 0.75rem;
+            border-radius: 9999px;
+            font-weight: bold;
+            font-size: 0.875rem;
+        }
+
+        .product-content {
+            padding: 1.5rem;
+            color: #1f2937;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-title {
+            font-size: 0.875rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 0.75rem;
+            min-height: 2.5rem;
+        }
+
+        .product-days {
+            text-align: center;
+            color: #374151;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-unit-price {
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.875rem;
+            margin-bottom: 1rem;
+        }
+
+        .product-pricing {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .original-price {
+            color: #6b7280;
+            text-decoration: line-through;
+            font-size: 1.125rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .current-price {
+            color: #059669;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .savings {
+            color: #047857;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .shipping {
+            text-align: center;
+            margin-bottom: 1rem;
+            color: #374151;
+            font-weight: 600;
+        }
+
+        .buy-button {
+            background: #059669;
+            color: white;
+            border: none;
+            padding: 1rem;
+            border-radius: 0.75rem;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+        }
+
+        .buy-button:hover {
+            background: #047857;
+            transform: scale(1.02);
+        }
+
+        /* WhatsApp Section */
+        .whatsapp-section {
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        .whatsapp-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+        }
+
+        .whatsapp-button-img {
+            width: 300px;
+            max-width: 90%;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .whatsapp-button-img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Floating WhatsApp */
+        .floating-whatsapp {
+            position: fixed;
+            bottom: 1rem;
+            left: 1rem;
+            z-index: 999;
+        }
+
+        .floating-whatsapp img {
+            width: 4rem;
+            height: 4rem;
+            cursor: pointer;
+            transition: transform 0.3s;
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
+        }
+
+        .floating-whatsapp img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Footer */
+        footer {
+            padding: 2rem 1rem;
+            text-align: center;
+            border-top: 1px solid #fbbf24;
+            background: #2a2a2a;
+        }
+
+        footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-highlight {
+            color: #f97316;
+            font-weight: bold;
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .hero-title, .hero-subtitle {
+                font-size: 1.5rem;
+            }
+
+            .section-title {
+                font-size: 1.25rem;
+            }
+
+            .countdown-number {
+                font-size: 2rem;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .fixed-banner p {
+                font-size: 0.75rem;
+            }
+
+            .logo {
+                width: 5rem;
+                height: 5rem;
+            }
+        }
+
+        @media (min-width: 641px) and (max-width: 1023px) {
+            .products-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .products-grid {
+                grid-template-columns: repeat(5, 1fr);
+            }
+
+            .spacer {
+                height: 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Fixed Banner -->
+    <div class="fixed-banner">
+        <p>⚡ CUPOM: <span class="coupon">BLACK15</span> ⚡</p>
+    </div>
+
+    <div class="spacer"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="welong-logo-circular.png" alt="Welong Hair" class="logo">
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">⚡ OFERTA RELÂMPAGO ⚡</h1>
+            <h2 class="hero-subtitle">🔥 BLACK NOVEMBER 🔥</h2>
+
+            <!-- Countdown -->
+            <div class="countdown-container">
+                <h2 class="countdown-title">CUPOM VÁLIDO PARA OS PRÓXIMOS:</h2>
+                <div class="countdown-timer">
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="hours">00</div>
+                        <div class="countdown-label">HORAS</div>
+                    </div>
+                    <div class="countdown-separator">:</div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="minutes">05</div>
+                        <div class="countdown-label">MINUTOS</div>
+                    </div>
+                    <div class="countdown-separator">:</div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="seconds">00</div>
+                        <div class="countdown-label">SEGUNDOS</div>
+                    </div>
+                </div>
+                <p style="color: #9ca3af; font-size: 0.875rem;">Aproveite esta oferta limitada - Válida somente por hoje (<span id="today"></span>)</p>
+            </div>
+
+            <!-- Marquee -->
+            <div class="marquee">
+                <div class="marquee-content">
+                    ⚡ BLACK NOVEMBER 🔥 ÚLTIMAS UNIDADES 🔥 APROVEITE AGORA ⚡          ⚡ BLACK NOVEMBER 🔥 ÚLTIMAS UNIDADES 🔥 APROVEITE AGORA ⚡          ⚡ BLACK NOVEMBER 🔥 ÚLTIMAS UNIDADES 🔥 APROVEITE AGORA ⚡          
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Linha Crescimento -->
+    <section class="product-section">
+        <div class="container">
+            <h2 class="section-title">⚡ LINHA CRESCIMENTO E ANTIQUEDA ⚡</h2>
+            <div class="products-grid" id="antiqueda-products"></div>
+        </div>
+    </section>
+
+    <!-- Linha Antifrizz -->
+    <section class="product-section">
+        <div class="container">
+            <h2 class="section-title">⚡ LINHA ANTIFRIZZ ⚡</h2>
+            <div class="products-grid" id="antifrizz-products"></div>
+        </div>
+    </section>
+
+    <!-- WhatsApp CTA -->
+    <section class="whatsapp-section">
+        <div class="container">
+            <h3 class="whatsapp-title">DESEJA UM KIT PERSONALIZADO?</h3>
+            <img src="whatsapp-button.webp" alt="Compre pelo WhatsApp" class="whatsapp-button-img" onclick="openWhatsApp()">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Welong Hair. Todos os direitos reservados.</p>
+            <p class="footer-highlight">⚡ BLACK NOVEMBER - DESCONTOS IMPERDÍVEIS! 🔥</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <div class="floating-whatsapp">
+        <img src="whatsapp-float.png" alt="WhatsApp" onclick="openWhatsApp()">
+    </div>
+
+    <script>
+        // Countdown Timer
+        let timeLeft = {
+            hours: 0,
+            minutes: 5,
+            seconds: 0
+        };
+
+        function updateCountdown() {
+            if (timeLeft.seconds > 0) {
+                timeLeft.seconds--;
+            } else if (timeLeft.minutes > 0) {
+                timeLeft.seconds = 59;
+                timeLeft.minutes--;
+            } else if (timeLeft.hours > 0) {
+                timeLeft.seconds = 59;
+                timeLeft.minutes = 59;
+                timeLeft.hours--;
+            }
+
+            document.getElementById('hours').textContent = String(timeLeft.hours).padStart(2, '0');
+            document.getElementById('minutes').textContent = String(timeLeft.minutes).padStart(2, '0');
+            document.getElementById('seconds').textContent = String(timeLeft.seconds).padStart(2, '0');
+        }
+
+        setInterval(updateCountdown, 1000);
+
+        // Set today's date
+        const today = new Date();
+        const day = String(today.getDate()).padStart(2, '0');
+        const month = String(today.getMonth() + 1).padStart(2, '0');
+        const year = today.getFullYear();
+        document.getElementById('today').textContent = `${day}/${month}/${year}`;
+
+        // WhatsApp function
+        function openWhatsApp() {
+            const phoneNumber = "5511911725889";
+            const message = encodeURIComponent("👋 Olá! Gostaria de um kit personalizado da Welong Hair!");
+            window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+        }
+
+        // Products data
+        const antiquedaProducts = [
+            {
+                image: "kit-crescimento-8-updated.png",
+                title: "8 TÔNICOS + 2 SHAMPOOS + 2 CONDICIONADORES",
+                days: "300 dias de uso",
+                unitPrice: "Cada unidade por R$ 42",
+                originalPrice: "de R$ 597 por",
+                currentPrice: "R$ 507",
+                badge: "MAIS COMPLETO",
+                badgeClass: "badge-blue",
+                discount: "15% OFF",
+                savings: "Economize R$ 90",
+                shipping: "Frete Grátis + Brindes",
+                url: "https://seguro.welong.com.br/r/8O1XB34GUA?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+            },
+            {
+                image: "kit-crescimento-5.png",
+                title: "5 TÔNICOS + 1 SHAMPOO + 1 CONDICIONADOR",
+                days: "180 dias de uso",
+                unitPrice: "Cada unidade por R$ 48",
+                originalPrice: "de R$ 397 por",
+                currentPrice: "R$ 337",
+                badge: "MAIS VENDIDO",
+                badgeClass: "badge-green",
+                discount: "15% OFF",
+                savings: "Economize R$ 60",
+                shipping: "Frete Grátis + Brindes",
+                url: "https://seguro.welong.com.br/r/MBKLHMA2IV?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+            },
+            {
+                image: "kit-crescimento-3-completo.png",
+                title: "3 TÔNICOS + 1 SHAMPOO + 1 CONDICIONADOR",
+                days: "90 dias de uso",
+                unitPrice: "Cada unidade por R$ 50",
+                originalPrice: "de R$ 297 por",
+                currentPrice: "R$ 252",
+                badgeClass: "badge-purple",
+                discount: "15% OFF",
+                savings: "Economize R$ 45",
+                shipping: "Frete Grátis + Brindes",
+                url: "https://seguro.welong.com.br/r/HT1OQPX12V?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+            },
+            {
+                image: "kit-crescimento-3.png",
+                title: "3 UNIDADES TÔNICO WELONG HAIR",
+                days: "90 dias de uso",
+                unitPrice: "Cada unidade por R$ 56",
+                originalPrice: "de R$ 197 por",
+                currentPrice: "R$ 167",
+                badgeClass: "badge-orange",
+                discount: "15% OFF",
+                savings: "Economize R$ 30",
+                url: "https://seguro.welong.com.br/r/KG5LJLOTT3?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+            },
+            {
+                image: "kit-crescimento-1.png",
+                title: "1 UNIDADE TÔNICO WELONG HAIR",
+                days: "30 dias de uso",
+                unitPrice: "Cada unidade por R$ 133",
+                originalPrice: "de R$ 157 por",
+                currentPrice: "R$ 133",
+                badgeClass: "badge-orange",
+                discount: "15% OFF",
+                savings: "Economize R$ 24",
+                url: "https://seguro.welong.com.br/r/C1R8W78CN3?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+            }
+        ];
+
+        const antiFrizzProducts = [
+            {
+                image: "kit-antifrizz-12.png",
+                title: "12 UNIDADES ANTIFRIZZ WELONG HAIR",
+                days: "365 Dias de Uso",
+                unitPrice: "Cada unidade por R$ 42",
+                originalPrice: "de R$ 597 por",
+                currentPrice: "R$ 507",
+                badge: "MAIS COMPLETO",
+                badgeClass: "badge-blue",
+                discount: "15% OFF",
+                savings: "Economize R$ 90",
+                shipping: "Frete Grátis + Brindes",
+                url: "https://seguro.welong.com.br/r/RJBYR6ESKM?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+            },
+            {
+                image: "kit-antifrizz-6.png",
+                title: "6 UNIDADES ANTIFRIZZ WELONG HAIR",
+                days: "180 Dias de Uso",
+                unitPrice: "Cada unidade por R$ 56",
+                originalPrice: "de R$ 397 por",
+                currentPrice: "R$ 337",
+                badge: "MAIS VENDIDO",
+                badgeClass: "badge-green",
+                discount: "15% OFF",
+                savings: "Economize R$ 60",
+                shipping: "Frete Grátis + Brindes",
+                url: "https://seguro.welong.com.br/r/AIOHS0CVPE?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+            },
+            {
+                image: "kit-antifrizz-3-brindes.png",
+                title: "3 UNIDADES ANTIFRIZZ + SHAMPOO E CONDICIONADOR",
+                days: "150 Dias de Uso",
+                unitPrice: "Cada unidade por R$ 50",
+                originalPrice: "de R$ 297 por",
+                currentPrice: "R$ 252",
+                badgeClass: "badge-purple",
+                discount: "15% OFF",
+                savings: "Economize R$ 45",
+                shipping: "Frete Grátis + Brindes",
+                url: "https://seguro.welong.com.br/r/IDX2GCER77?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+            },
+            {
+                image: "kit-antifrizz-3.png",
+                title: "3 UNIDADES ANTIFRIZZ WELONG HAIR",
+                days: "90 dias de Uso",
+                unitPrice: "Cada unidade por R$ 56",
+                originalPrice: "de R$ 197 por",
+                currentPrice: "R$ 167",
+                badgeClass: "badge-orange",
+                discount: "15% OFF",
+                savings: "Economize R$ 30",
+                url: "https://seguro.welong.com.br/r/TJPR97DVO5?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+            },
+            {
+                image: "kit-antifrizz-1.png",
+                title: "1 UNIDADE ANTIFRIZZ WELONG HAIR",
+                days: "30 dias de Uso",
+                unitPrice: "Cada unidade por R$ 133",
+                originalPrice: "de R$ 157 por",
+                currentPrice: "R$ 133",
+                badgeClass: "badge-green",
+                discount: "15% OFF",
+                savings: "Economize R$ 24",
+                url: "https://seguro.welong.com.br/r/8DIH2UP9J1?utm_source=lg4&utm_medium=lg4&utm_campaign=lg4"
+            }
+        ];
+
+        // Render products
+        function renderProducts(products, containerId) {
+            const container = document.getElementById(containerId);
+            products.forEach(product => {
+                const card = `
+                    <div class="product-card">
+                        ${product.badge ? `<div class="product-badge ${product.badgeClass}">${product.badge}</div>` : ''}
+                        <div style="position: relative;">
+                            <img src="${product.image}" alt="${product.title}" class="product-image">
+                            ${product.discount ? `<div class="discount-badge">${product.discount}</div>` : ''}
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">${product.title}</h3>
+                            <p class="product-days">${product.days}</p>
+                            ${product.unitPrice ? `<p class="product-unit-price">${product.unitPrice}</p>` : ''}
+                            <div class="product-pricing">
+                                <div class="original-price">${product.originalPrice}</div>
+                                <div class="current-price">${product.currentPrice}</div>
+                                ${product.savings ? `<div class="savings">${product.savings}</div>` : ''}
+                            </div>
+                            ${product.shipping ? `<p class="shipping">🚛 ${product.shipping}</p>` : ''}
+                            <button class="buy-button" onclick="window.open('${product.url}', '_blank')">COMPRAR AGORA</button>
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += card;
+            });
+        }
+
+        renderProducts(antiquedaProducts, 'antiqueda-products');
+        renderProducts(antiFrizzProducts, 'antifrizz-products');
+    </script>
+</body>
+</html>

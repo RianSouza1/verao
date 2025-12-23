@@ -1,0 +1,119 @@
+{
+  "images": [
+    {
+      "name": "welong-logo-circular.png",
+      "path": "src/assets/welong-logo-circular.png",
+      "category": "logos"
+    },
+    {
+      "name": "welong-logo-new.png",
+      "path": "src/assets/welong-logo-new.png",
+      "category": "logos"
+    },
+    {
+      "name": "welong-logo.png",
+      "path": "src/assets/welong-logo.png",
+      "category": "logos"
+    },
+    {
+      "name": "whatsapp-button.webp",
+      "path": "src/assets/whatsapp-button.webp",
+      "category": "whatsapp"
+    },
+    {
+      "name": "whatsapp-float.png",
+      "path": "src/assets/whatsapp-float.png",
+      "category": "whatsapp"
+    },
+    {
+      "name": "whatsapp-icon.png",
+      "path": "src/assets/whatsapp-icon.png",
+      "category": "whatsapp"
+    },
+    {
+      "name": "kit-crescimento-8-updated.png",
+      "path": "src/assets/kit-crescimento-8-updated.png",
+      "category": "kits-crescimento"
+    },
+    {
+      "name": "kit-crescimento-8-new.png",
+      "path": "src/assets/kit-crescimento-8-new.png",
+      "category": "kits-crescimento"
+    },
+    {
+      "name": "kit-crescimento-8.png",
+      "path": "src/assets/kit-crescimento-8.png",
+      "category": "kits-crescimento"
+    },
+    {
+      "name": "kit-crescimento-5.png",
+      "path": "src/assets/kit-crescimento-5.png",
+      "category": "kits-crescimento"
+    },
+    {
+      "name": "kit-crescimento-3-completo.png",
+      "path": "src/assets/kit-crescimento-3-completo.png",
+      "category": "kits-crescimento"
+    },
+    {
+      "name": "kit-crescimento-3.png",
+      "path": "src/assets/kit-crescimento-3.png",
+      "category": "kits-crescimento"
+    },
+    {
+      "name": "kit-crescimento-1.png",
+      "path": "src/assets/kit-crescimento-1.png",
+      "category": "kits-crescimento"
+    },
+    {
+      "name": "kit-antifrizz-12.png",
+      "path": "src/assets/kit-antifrizz-12.png",
+      "category": "kits-antifrizz"
+    },
+    {
+      "name": "kit-antifrizz-6.png",
+      "path": "src/assets/kit-antifrizz-6.png",
+      "category": "kits-antifrizz"
+    },
+    {
+      "name": "kit-antifrizz-3-brindes.png",
+      "path": "src/assets/kit-antifrizz-3-brindes.png",
+      "category": "kits-antifrizz"
+    },
+    {
+      "name": "kit-antifrizz-3.png",
+      "path": "src/assets/kit-antifrizz-3.png",
+      "category": "kits-antifrizz"
+    },
+    {
+      "name": "kit-antifrizz-1.png",
+      "path": "src/assets/kit-antifrizz-1.png",
+      "category": "kits-antifrizz"
+    },
+    {
+      "name": "kit-anti-frizz.png",
+      "path": "src/assets/kit-anti-frizz.png",
+      "category": "kits-antifrizz"
+    },
+    {
+      "name": "kit-antiqueda.png",
+      "path": "src/assets/kit-antiqueda.png",
+      "category": "kits-antiqueda"
+    },
+    {
+      "name": "antiqueda-products.png",
+      "path": "src/assets/antiqueda-products.png",
+      "category": "kits-antiqueda"
+    },
+    {
+      "name": "antifrizz-products.png",
+      "path": "src/assets/antifrizz-products.png",
+      "category": "kits-antifrizz"
+    },
+    {
+      "name": "tonic-single.png",
+      "path": "src/assets/tonic-single.png",
+      "category": "products"
+    }
+  ]
+}
