@@ -23,7 +23,7 @@ import capsulas5Img from '@/assets/capsulas-5-unidades.png';
 import capsulas10Img from '@/assets/capsulas-10-unidades.png';
 import capsulasKitCompletoImg from '@/assets/capsulas-kit-completo.png';
 import heroBg from '@/assets/hero-beach.png';
-import heroSign from '@/assets/placa-verao.png';
+import heroSign from '@/assets/PLACA-VERAO.png';
 const Verao = () => {
   const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 1024);
   const [renderKey, setRenderKey] = useState(0);
